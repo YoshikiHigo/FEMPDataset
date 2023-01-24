@@ -1,7 +1,7 @@
 # FEMPDataset
 
 FEMPDataset is a dataset of functionally equivalent (in short, FE) method pairs.
-FEMPDataset include 1,342 FE method pairs that have been validated by three programmers.
+FEMPDataset includes 1,342 FE method pairs that have been validated by three programmers.
 
 
 ## Quick start
