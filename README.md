@@ -6,7 +6,12 @@ FEMPDataset include 1,342 FE method pairs that have been validated by three prog
 
 ## Quick start
 
-First of all, please make sure that SQLite is installed in your environment.
+First of all, you can download the dataset from the following URL:
+https://www.dropbox.com/s/7rcg4mso1k755nh/ijadataset.db?dl=0
+
+The size of this dataset is very large, approximately 2.67 GB. For this reason, this file is not on GitHub, but on Dropbox.
+
+Then, please make sure that SQLite is installed in your environment.
 ```shell-session
 $sqlite3 ijadataset.db
 SQLite version 3.39.5 2022-10-14 20:58:05
@@ -51,6 +56,14 @@ The following command enables you to see the source code of FE method pairs that
 ```shell-session
 sqlite> select (select rtext from methods where id = (select leftMethodID from pairs P where P.id = V.pairid)), (select rtext from methods where id = (select rightMethodID from pairs P where p.id = V.pairid)) from verifiedpairs V where consensus = 1;
 ```
+
+The three reviewers are master's students, all of whom have programming experience using Java.
+The three reviewers had the following working time to make individual judgements.
+- `Reviewer-A`: 44 hours 48 minutes,
+- `Reviewer-B`: 33 hours 20 minutes,
+- `Reviewer-C`: 43 hours 25 minutes.
+
+They also spent a total of 9 hours and 28 minutes in discussion to reach a consensus on the method pairs that differed in their individual judgements.
 
 ## Detailed Information
 
