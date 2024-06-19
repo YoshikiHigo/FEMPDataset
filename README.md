@@ -137,3 +137,20 @@ The extraction was performed with the following procedure.
 The method pairs included in `selectedPairs` after the above process are the method pairs to be verified manually.
 The above process resulted in the extraction of 2,195 method pairs.
 
+## Use in your research
+
+If you are using FEMPDataset in your research, please cite the following paper:
+
+Yoshiki Higo, "Dataset of Functionally Equivalent Java Methods and Its Application to Evaluating Clone Detection Tools", IEICE Transactions on Information and Systems, Vol.E107-D, No.6, pp.751--760, June 2024. [[available online](https://doi.org/10.1587/transinf.2023EDP7268)]
+```
+@article{YoshikiHIGO.20242023EDP7268,
+  title={Dataset of Functionally Equivalent Java Methods and Its Application to Evaluating Clone Detection Tools},
+  author={Yoshiki HIGO},
+  journal={IEICE Transactions on Information and Systems},
+  volume={E107.D},
+  number={6},
+  pages={751-760},
+  year={2024},
+  doi={10.1587/transinf.2023EDP7268}
+}
+```
