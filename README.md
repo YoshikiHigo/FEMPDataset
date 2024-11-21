@@ -153,4 +153,7 @@ Yoshiki Higo, "Dataset of Functionally Equivalent Java Methods and Its Applicati
   year={2024},
   doi={10.1587/transinf.2023EDP7268}
 }
+
+## Other dataset
+[[PyFuncEquivDataset](https://github.com/Scepter4Qing/PyFuncEquivDataset)]: functionally equivalent dataset on Python code
 ```
